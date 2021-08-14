@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML INPUT ATTRIBUTES</title>
+	</head>
+	<body>
+		<form> 	
+			<input type="text" value="Neha" readonly> <!--1)read only mode cant change-->
+			<input type="submit" value="Go"><br><br>
+			
+			<input type="text" value="Neha" disabled>	<!--2)disabled cant change-->
+			<input type="submit" value="Go">	<br><br>		<!--you can write 'submit' too -->
+			
+			<input type="text" value="Neha" size="40">		<!--3)add size-->
+			<input type="submit" value="Go"><br><br>
+			
+			<input type="text" value="" maxlength="20" size="40"><!--4)only allowtotype 20 character-->
+			<input type="submit" value="Go"><br><br>
+			
+			<input type="text" value="" minlength="20" size="40"><!--5)minimum 20 char allowed-->
+			<input type="submit" value="Go"><br><br>
+			
+			<input type="number" max="20" min="10"><!--6)Only numbers are allowed-->
+			<input type="submit" value="Go"><br><br>
+			
+			<input type="text" placeholder="Enter NAME" required> <!--hint inside the text box andrequired=mandatory-->
+			<input type="submit" value="Submit">	<br><br>	
+			
+			<input type="number" value="1" step="2"><!--used for number or range and prints odd number 1,3,5-->
+			<input type="submit" value="Submit"><br><br>
+			
+			<input type="text" autofocus>	<!--we dnt have to click on text boxto type,it automatically allows you to type--> 
+			<input type="submit" value="Submit"><br><br>
+			
+			<input type="text" autocomplete="on">	<!--it gives hint to type the text which was before typed only if you are going to type it again-->
+			<input type="submit" value="Submit"><br><br>
+			
+			<input type="text" name="Name">		<!--it is usually used in backend-->
+			<input type="text" name="First_Name">	<!--we cant give space in between first and name-->
+			<input type="text" name="Last_Name">
+			<input type="submit" value="Submit"><br><br>
+		</form>
+	</body>
+	</head>
+</html>

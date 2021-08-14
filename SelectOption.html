@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML FORMS SELECT OPTION</title>
+	</head>
+	<body>
+		<form> 	
+			<!--<select size="5" multiple>size shows how many contents has to show on page-->
+			<!--optgroup is used for separate the 2 or more categories into diferent parts as shown below-->
+			<select>
+				<optgroup label="CAR">
+					<option value="tata">Tata</option>
+					<option value="audi">Audi</option>
+					<option value="audi" selected>Lamborghini</option>
+					<option value="audi">Ferrari</option>
+					<option value="audi">BMW</option>
+				</optgroup>
+			
+				<optgroup label="SPORTS">
+					<option value="audi">Cricket</option>
+					<option value="audi">Hockey</option>
+					<option value="audi">Tennis</option>
+					<option value="audi">Badminton</option>
+				<optgroup>
+			</select>
+		</form>
+			<br><br>
+		<form>
+			<!--Radio Button-->
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="feamle" checked>Female
+				<input type="radio" name="gender" value="others">Others
+			<!--we have to write same "name" to every element to select ONE option, As shown above-->
+			<!--checked option is used for FILLED-->
+			<br><br>
+				<input type="radio" name="employee" value="manager">Manager
+				<input type="radio" name="employee" value="developer" checked>Developer
+				<input type="radio" name="employee" value="junior">Junior
+			
+		</form>
+	</body>
+</html>

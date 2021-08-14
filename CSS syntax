@@ -1,0 +1,6 @@
+//CSS describes how HTMLL elements are to be displayed on screen,paper, or in other media.
+//HTML:what to display AND Css: How to display.
+
+p{
+	color:blue;
+}

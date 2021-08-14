@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			HTML image map
+			<!--we can add the link on image or when we click on image it goes to particular link that we want to go.
+			or we set multiple tags on image as per our requirement-->
+		</title>
+	</head>
+	<body>
+		<!--<a href="https://www.amazon.com" target="_blank"> 
+			<img src="images/image.jpg" width="100" alt=" photo" height="100">
+		</a>-->
+		<!--here link will open in new tab because of target-->
+		<!-- HOW TO ADD MULTIPLE LINKS ON IMAGE/sub image, There is image which contains laptop and mobile we are adding links on it-->
+		
+			<img src="images/image.jpg" alt="laptop image" usemap="#image">
+			
+			<map name="image">
+				<area shape="rect" coord="34,44,270,350" href="https://www.amazon.com"> <!--for laptop-->
+				<area shape="rect" coord="29,172,333,250" href="https://www.amazon.com"> <!--for mobile-->
+		</body>
+</html>
